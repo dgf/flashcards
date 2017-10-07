@@ -1,0 +1,7 @@
+language: go
+go: # use newest Go 1.x version
+  - 1.x
+git: # only build the last one
+  depth: 1
+after_success:
+  - sh refresh.sh
