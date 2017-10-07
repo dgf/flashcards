@@ -1,0 +1,12 @@
+size = "A4"
+
+[card]
+unit = "mm"
+width = 69
+height = 31
+margin = 3
+
+[font]
+size = 37
+name = "Arial"
+style = "B"
